@@ -1,4 +1,4 @@
-var socket = io("http://localhost:3004");
+var socket = io("https://qt-webchat.herokuapp.com/");
 var currentUser = "";
 
 socket.on("server-send-dki-thatbai", function () {
